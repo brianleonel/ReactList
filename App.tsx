@@ -5,7 +5,7 @@ function App(){
   return (
   <Card>
     <CardBody title="12 de agosto..." text="lunes tarde..."/>
-    <List data={list}/>
+    <List data={list}/>/*paso propiedades mediante un objeto*/
   </Card>);
 }
 export default App;
