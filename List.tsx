@@ -7,6 +7,8 @@ En data se desestructura Props, se extrae las propiedades de Props, data tiene l
 return(
     <ul>
     {data.map((elemento)=>(<li>{elemento}</li>))}
+        /* es recomendable usar la propiedad key en li pq generalmente una lista de una base de datos tendria que 
+        tener con una propiedad de id, en este caso el nombre es el id return(data.map((elem)=>(<li key={elem}>{elem}</li>)));*/
     </ul>
 );
 }
